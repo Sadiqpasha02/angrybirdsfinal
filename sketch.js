@@ -111,10 +111,10 @@ async function getBackgroundImg(){
     
     if(hour>=0600 && hour<=2200){
 
-        bg = "sprites/bg2.jpg";
+        bg = "sprites/bg1.png";
     }
     else{
-        bg = "sprites/bg1.png";
+        bg = "sprites/bg2.jpg";
     }
 
     backgroundImg = loadImage(bg);
